@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" id="nav-home" class="active">Home</a></li>
+            <li><a href="#" id="nav-all-posts">All Posts</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1></h1>
+    </header>
+    <main>
+        <section id="new-post">
+            <h2>Add New Post</h2>
+            <input type="text" id="post-title" placeholder="Title">
+            <textarea id="post-content" placeholder="Write your post..."></textarea>
+            <button id="add-post-btn">Add Post</button>
+        </section>
+        <section id="all-posts-section" style="display:none;">
+            <h2>All Posts</h2>
+            <div id="all-posts-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
